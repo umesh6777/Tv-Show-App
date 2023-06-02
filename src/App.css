@@ -1,0 +1,42 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("https://images.pexels.com/photos/2726370/pexels-photo-2726370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+}
+
+.app-header {
+  background-color: #0f1010;
+  padding: 20px;
+  color: #fff;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 1000;
+ color: red;
+  
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.flex{
+  display: flex;
+}
+
+.app-header input{
+  width: 50%;
+  margin-left: 15%;
+  padding: 1vw;
+  border-radius: 25px;
+}
+.app-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+

@@ -1,0 +1,73 @@
+.show-details-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .show-details-card {
+    background-color: rgb(161, 131, 131);
+  padding: 0 10px 4px;
+    max-height: 700px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .show-details-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .show-details-image {
+    width: 30%;
+    height: auto;
+    max-height: 150px;
+    margin-left: 35%;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .show-details-summary {
+    margin-bottom: 20px;
+    font-size: 8px;
+    text-align: center;
+  }
+  
+  .show-details-form-group {
+    margin-bottom: 10px;
+  }
+  
+  .show-details-label {
+    display: block;
+    margin-left: 10%;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .show-details-input {
+    width: 80%;
+    margin-left: 10%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+  }
+  
+  .show-details-button {
+    background-color: #e0182f;
+    margin-left: 10%;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .show-details-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
